@@ -5,8 +5,8 @@ export default function About() {
     <div className="col-md-6">
       <h3>A propos</h3>
       <img
-        src="https://via.placeholder.com/400x250"
-        alt="profile"
+        src="/assets/profile.jpg"   // <-- ton image dans public/assets/
+        alt="Mon profil"
         className="img-fluid rounded mb-3"
       />
       <p>
