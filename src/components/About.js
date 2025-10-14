@@ -5,8 +5,7 @@ export default function About() {
     <div className="col-md-6">
       <h3>A propos</h3>
       <img
-        src="/assets/profile.jpg"   // <-- ton image dans public/assets/
-        alt="Mon profil"
+        src="/assets/john-doe-about.jpg"   
         className="img-fluid rounded mb-3"
       />
       <p>

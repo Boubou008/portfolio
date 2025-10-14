@@ -6,7 +6,7 @@ export default function Hero() {
       className="text-white text-center d-flex align-items-center"
       style={{
         height: "100vh",
-        backgroundImage: "url('/assets/hero-bg.jpg')", // chemin direct vers public/assets
+        backgroundImage: "url('/assets/hero-bg.jpg')", 
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
