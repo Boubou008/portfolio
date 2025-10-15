@@ -1,14 +1,16 @@
 import React from "react";
 import { FaPenNib, FaCode } from "react-icons/fa";
-import { FaMagnifyingGlass } from "react-icons/fa6"; // nouvelle icône
+import { FaMagnifyingGlass } from "react-icons/fa6";
+import PageHeader from "./PageHeader";
 
 export default function Services() {
   return (
     <section className="container my-5">
-      <h2 className="text-center mb-4">Mon offre de services</h2>
-      <p className="text-center text-muted">
-        Voici les prestations sur lesquelles je peux intervenir
-      </p>
+      {/* Titre + sous-titre + barre bleue */}
+      <PageHeader
+        title="Mon offre de services"
+        subtitle="Voici les prestations sur lesquelles je peux intervenir"
+      />
 
       <div className="row mt-5">
         {/* UX Design */}
@@ -17,8 +19,8 @@ export default function Services() {
             <FaPenNib size={40} className="text-primary mb-3" />
             <h5>UX Design</h5>
             <p>
-              L’UX Design est une discipline qui consiste à concevoir des produits
-              en plaçant l’utilisateur au centre des préoccupations.
+              L’UX Design est une discipline qui consiste à concevoir des
+              produits en plaçant l’utilisateur au centre des préoccupations.
             </p>
           </div>
         </div>
@@ -41,8 +43,8 @@ export default function Services() {
             <FaMagnifyingGlass size={40} className="text-primary mb-3" />
             <h5>Référencement</h5>
             <p>
-              Le référencement naturel (SEO) consiste à optimiser un site web pour
-              le faire remonter dans les résultats de recherche (Google, Bing…).
+              Le référencement naturel (SEO) consiste à optimiser un site web
+              pour le faire remonter dans les résultats de recherche (Google, Bing…).
             </p>
           </div>
         </div>

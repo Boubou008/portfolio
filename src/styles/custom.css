@@ -1,0 +1,12 @@
+.page-separator {
+  width: 80px;
+  border: 2px solid #007bff; /* couleur principale */
+  margin: 0 auto 30px auto;
+  border-radius: 5px; /* arrondi léger */
+  transition: all 0.3s ease-in-out;
+}
+
+.page-separator:hover {
+  width: 120px;         /* s'allonge au survol */
+  border-color: #0056b3; /* change de bleu */
+}

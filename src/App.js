@@ -9,6 +9,9 @@ import Footer from "./components/Footer";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio"; // <-- nouvelle page
 import Contact from "./components/Contact";     // <-- nouvelle page
+import MentionsLegales from "./components/MentionsLegales";
+<Route path="/mentions-legales" element={<MentionsLegales />} />
+
 
 function App() {
   return (
