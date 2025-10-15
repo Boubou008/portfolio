@@ -11,7 +11,7 @@ export default function Portfolio() {
 
       <div className="row g-4">
         {/* Carte 1 */}
-        <div className="col-md-4">
+        <div className="col-md-4" id="project-freshfood">
           <div className="card h-100 shadow-sm">
             <img src="/assets/fresh-food.jpg" className="card-img-top" alt="Fresh Food" />
             <div className="card-body text-center">
@@ -26,7 +26,7 @@ export default function Portfolio() {
         </div>
 
         {/* Carte 2 */}
-        <div className="col-md-4">
+        <div className="col-md-4" id="project-restaurant-japonais">
           <div className="card h-100 shadow-sm">
             <img src="/assets/restaurant-japonais.jpg" className="card-img-top" alt="Restaurant Akira" />
             <div className="card-body text-center">
@@ -41,7 +41,7 @@ export default function Portfolio() {
         </div>
 
         {/* Carte 3 */}
-        <div className="col-md-4">
+        <div className="col-md-4" id="project-espace-bien-etre">
           <div className="card h-100 shadow-sm">
             <img src="/assets/espace-bien-etre.jpg" className="card-img-top" alt="Espace bien-être" />
             <div className="card-body text-center">
@@ -56,7 +56,7 @@ export default function Portfolio() {
         </div>
 
         {/* Carte 4 */}
-        <div className="col-md-4">
+        <div className="col-md-4" id="project-seo">
           <div className="card h-100 shadow-sm">
             <img src="/assets/seo.jpg" className="card-img-top" alt="SEO" />
             <div className="card-body text-center">
@@ -71,7 +71,7 @@ export default function Portfolio() {
         </div>
 
         {/* Carte 5 */}
-        <div className="col-md-4">
+        <div className="col-md-4" id="project-coder">
           <div className="card h-100 shadow-sm">
             <img src="/assets/coder.jpg" className="card-img-top" alt="Création d'une API" />
             <div className="card-body text-center">
@@ -86,7 +86,7 @@ export default function Portfolio() {
         </div>
 
         {/* Carte 6 */}
-        <div className="col-md-4">
+        <div className="col-md-4" id="project-screens">
           <div className="card h-100 shadow-sm">
             <img src="/assets/screens.jpg" className="card-img-top" alt="Maquette d’un site web" />
             <div className="card-body text-center">

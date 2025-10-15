@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Appliquer la police globale */
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400; /* Corps du texte */
+  color: #212529;   /* Couleur par défaut (texte noir Bootstrap) */
+}
+
+/* Titres et strong avec graisse 600 */
+h1, h2, h3, h4, h5, h6,
+strong {
+  font-weight: 600;
+}

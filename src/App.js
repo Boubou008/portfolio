@@ -7,11 +7,9 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
-import Portfolio from "./components/Portfolio"; // <-- nouvelle page
-import Contact from "./components/Contact";     // <-- nouvelle page
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 import MentionsLegales from "./components/MentionsLegales";
-<Route path="/mentions-legales" element={<MentionsLegales />} />
-
 
 function App() {
   return (
@@ -38,6 +36,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/mentions-legales" element={<MentionsLegales />} /> {/* ✅ déplacé ici */}
       </Routes>
       <Footer />
     </Router>
