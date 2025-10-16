@@ -4,16 +4,25 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="bg-dark text-white py-4 mt-5">
-      <div className="container">
+      <div className="container text-center">
         <div className="row">
-          
-          {/* Colonne 1 : Infos personnelles */}
+          {/* Colonne 1 : Infos + contact + réseaux sociaux */}
           <div className="col-md-4">
-            <h5 className="mb-2">John Doe</h5>
-            <p className="mb-1">40 rue Laure Diebold</p>
-            <p className="mb-1">69009 Lyon, France</p>
-            <p className="mb-1">10 20 30 40 50</p>
-            <p className="mb-0">john.doe@gmail.com</p>
+            <h5>John Doe</h5>
+            <p>Développeur web fullstack basé à Lyon</p>
+            <p>john.doe@gmail.com</p>
+            <p>10 20 30 40 50</p>
+            <div className="footer-social d-flex justify-content-center gap-3 mt-3">
+              <a href="https://github.com/johndoe" target="_blank" rel="noreferrer">
+                <img src="/assets/github.png" alt="GitHub" width="30" />
+              </a>
+              <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noreferrer">
+                <img src="/assets/linkedin.png" alt="LinkedIn" width="30" />
+              </a>
+              <a href="https://twitter.com/johndoe" target="_blank" rel="noreferrer">
+                <img src="/assets/twitter.png" alt="Twitter" width="30" />
+              </a>
+            </div>
           </div>
 
           {/* Colonne 2 : Liens utiles */}
@@ -27,25 +36,21 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Colonne 3 : Dernières réalisations */}
+          {/* Colonne 3 : Mes dernières réalisations (liens internes vers Portfolio) */}
           <div className="col-md-4">
             <h5>Mes dernières réalisations</h5>
             <ul className="list-unstyled">
-              <li><a href="/portfolio#project-freshfood" className="text-white">Fresh Food</a></li>
-              <li><a href="/portfolio#project-restaurant-japonais" className="text-white">Restaurant Akira</a></li>
-              <li><a href="/portfolio#project-espace-bien-etre" className="text-white">Espace bien-être</a></li>
-              <li><a href="/portfolio#project-seo" className="text-white">SEO</a></li>
-              <li><a href="/portfolio#project-api" className="text-white">Création d’une API</a></li>
-              <li><a href="/portfolio#project-screens" className="text-white">Maquette de site</a></li>
+              <li><Link to="/portfolio#project-freshfood" className="text-white">Food App</Link></li>
+              <li><Link to="/portfolio#project-restaurant-japonais" className="text-white">Interface Admin</Link></li>
+              <li><Link to="/portfolio#project-coder" className="text-white">Création d’une API</Link></li>
+              <li><Link to="/portfolio#project-screens" className="text-white">Maquette de site</Link></li>
+              <li><Link to="/portfolio#project-seo" className="text-white">SEO</Link></li>
             </ul>
           </div>
-
         </div>
 
         <hr className="border-light" />
-        <p className="text-center mb-0">
-          © 2025 John Doe. Tous droits réservés.
-        </p>
+        <p className="text-center mb-0">© 2025 John Doe. Tous droits réservés.</p>
       </div>
     </footer>
   );

@@ -6,13 +6,13 @@ import PageHeader from "./PageHeader";
 export default function Services() {
   return (
     <>
-      {/* Header avec image de fond */}
+      {/* Entête avec bannière */}
       <PageHeader
         title="Mon offre de services"
         subtitle="Voici les prestations sur lesquelles je peux intervenir"
       />
 
-      {/* Contenu */}
+      {/* Contenu principal */}
       <section className="container my-5">
         <div className="row mt-5">
           {/* UX Design */}

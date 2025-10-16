@@ -9,7 +9,7 @@ export default function PageHeader({ title, subtitle }) {
           backgroundImage: "url('/assets/banner.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "200px",   // hauteur fixe de la bannière
+          height: "200px",
           width: "100%",
         }}
       ></div>
@@ -20,7 +20,7 @@ export default function PageHeader({ title, subtitle }) {
         <p className="text-muted">{subtitle}</p>
         <hr
           className="mx-auto"
-          style={{ width: "80px", border: "2px solid #007bff" }}
+          style={{ width: "250px", border: "2px solid #007bff" }}
         />
       </div>
     </>
