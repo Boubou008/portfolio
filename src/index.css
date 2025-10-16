@@ -43,7 +43,7 @@ strong {
 /* Ombre + changement de fond au survol */
 .card:hover {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-  background-color: #f8f9fa; /* gris clair Bootstrap */
+  background-color: #f8f9fa; 
   transition: all 0.3s ease-in-out;
 }
 
@@ -59,11 +59,50 @@ strong {
 
 /* Icônes réseaux sociaux : blancs au survol */
 .footer-social img:hover {
-  filter: brightness(0) invert(1); /* rend l'image blanche */
+  filter: brightness(0) invert(1); 
   transition: all 0.3s ease-in-out;
 }
 
 /* Liens du footer en gras au survol */
 footer a:hover {
   font-weight: 600;
+}
+
+/* Réduit l'espacement entre les lignes de la colonne 1 */
+.footer-col1 p {
+  margin-bottom: 0.3rem; 
+  line-height: 1.2;      
+}
+
+/* Effets au survol pour toutes les cards */
+.card {
+  transition: all 0.3s ease-in-out; /* animation fluide */
+}
+
+/* Styles communs aux cards */
+.card {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #ddd;
+}
+
+/* Transition douce */
+.card {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #ddd;
+}
+
+/* Effet au survol */
+.card:hover {
+  background-color: #004080; 
+  color: #fff; 
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+
+/* Assurer que le texte et les icônes passent bien en blanc */
+.card:hover h5,
+.card:hover p,
+.card:hover .text-muted,
+.card:hover svg {
+  color: #fff !important;
 }

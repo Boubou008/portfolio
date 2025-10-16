@@ -7,11 +7,12 @@ export default function Footer() {
       <div className="container text-center">
         <div className="row">
           {/* Colonne 1 : Infos + contact + réseaux sociaux */}
-          <div className="col-md-4">
+          <div className="col-md-4 footer-col1">
             <h5>John Doe</h5>
-            <p>Développeur web fullstack basé à Lyon</p>
-            <p>john.doe@gmail.com</p>
+            <p>40 rue Laure Diebold</p>
+            <p>69009 Lyon, France</p>
             <p>10 20 30 40 50</p>
+            <p>john.doe@gmail.com</p>
             <div className="footer-social d-flex justify-content-center gap-3 mt-3">
               <a href="https://github.com/johndoe" target="_blank" rel="noreferrer">
                 <img src="/assets/github.png" alt="GitHub" width="30" />
